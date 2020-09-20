@@ -6,6 +6,9 @@ body {
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
+/* table {
+    width: 70%;
+} */
 .h2, h2 {
     font-size: 19px;
 }
@@ -109,6 +112,21 @@ body {
     margin-left: 20px;
     padding: 10px;
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 a:hover {
     color: white;
 }
@@ -375,6 +393,10 @@ a:hover {
     border-radius: 50%;
     width: 100%;
 }
+.events-image-1 {
+    /* border-radius: 50%; */
+    width: 100%;
+}
 .bem {
     border-radius: 50%;
     width: 50%;
@@ -383,7 +405,18 @@ a:hover {
     border-radius: 50%;
     width: 33%;
 }
+.bem-1 {
+    /* border-radius: 50%; */
+    width: 50%;
+}
+.bemx-1 {
+    /* border-radius: 50%; */
+    width: 33%;
+}
 .events-image:hover {
+    transform: scale(1.01);
+}
+.events-image-1:hover {
     transform: scale(1.01);
 }
 .bem:hover {
@@ -630,6 +663,9 @@ a:hover {
         width: 100%;
         margin-top: -100px;
     }
+    table {
+        width: 100%;
+    }
 
 }
 @media (max-width: 360px) {
@@ -679,6 +715,9 @@ a:hover {
         width: 100%;
         margin-top: -100px;
     }
+    table {
+        width: 100%;
+    }
 
 }
 @media (min-width: 768px) and (max-width: 841px) {
@@ -703,6 +742,9 @@ a:hover {
     .silk-hero {
         width: 30%;
         margin-top: -100px;
+    }
+    table {
+        width: 100%;
     }
 
 }
